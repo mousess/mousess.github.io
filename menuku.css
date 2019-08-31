@@ -1,0 +1,78 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:lightgray;
+    background-size:cover;
+    font-family:sans-serif;
+}
+.textbox {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:450px;
+    height:520px;
+    padding: 80px 40px;
+    box-sizing:border-box;
+    background: rgb(255, 255, 255);
+}
+.tampil {
+  box-shadow: 0 9px 13px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.user {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+h2 {
+    margin:0;
+    padding:0 0 20px;
+    color:blue;
+    text-align:center;
+}
+h1 {
+    margin:auto;
+    padding:5px;
+    color:aquamarine;
+    text-align:match-parent;
+}
+.td_social_type .td_social_button {
+    float: right;
+    border-left: 1px solid rgba(255, 255, 255, .1);
+    padding: 0 14px;
+    margin-top: 8px;
+    top: 9px;
+    height: 16px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 105px 300px;
+    border-radius: 20%;
+}
+.fe {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 10px;
+    border-radius: 20%;
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+}
